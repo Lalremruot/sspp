@@ -62,27 +62,27 @@ const NavBar = () => {
           <span className="absolute left-0 h-[2px] w-0 bottom-0 bg-green-600 transition-all duration-300 group-hover:w-full "></span>
         </Link>
         <Link
-          href="/coming-soon"
+          href="/e-tutorial"
           className="relative group hover:text-green-600 transition-all ease-in-out duration-400"
         >
           e-Tutorial{" "}
           <span className="absolute left-0 h-[2px] w-0 bottom-0 bg-green-600 transition-all duration-300 group-hover:w-full "></span>
         </Link>
         <Link
-          href="/coming-soon"
+          href="/comingsoon"
           className="relative group hover:text-green-600 transition-all ease-in-out duration-400"
         >
           Updates{" "}
           <span className="absolute left-0 h-[2px] w-0 bottom-0 bg-green-600 transition-all duration-300 group-hover:w-full "></span>
         </Link>
         <Link
-          href="/coming-soon"
+          href="/contact-us"
           className="bg-pink-600 hover:scale-105 text-white px-4 py-1.5 rounded-sm"
         >
-          Contact Us
+          Contact Us 
         </Link>
       </div>
-      <div className="lg:hidden">
+      <div className="lg:hidden">     
         <button
           onClick={handleNavBar}
           className={`z-50 relative transition-all ease-in-out duration-300 ${
@@ -132,7 +132,7 @@ const NavBar = () => {
             </Link>
             <Link
               onClick={() => setIsOpen(false)}
-              href="/coming-soon"
+              href="/e-tutorial"
               className="relative group hover:text-green-600 transition-all ease-in-out duration-300"
             >
               e-Tutorial
@@ -140,7 +140,7 @@ const NavBar = () => {
             </Link>
             <Link
               onClick={() => setIsOpen(false)}
-              href="/coming-soon"
+              href="/comingsoon"
               className="relative group hover:text-green-600 transition-all ease-in-out duration-300"
             >
               Updates
@@ -148,7 +148,7 @@ const NavBar = () => {
             </Link>
             <Link
               onClick={() => setIsOpen(false)}
-              href="/coming-soon"
+              href="/contact-us"
               className="bg-pink-600 hover:scale-105 text-white px-4 py-1.5 rounded-sm transition"
             >
               Contact Us

@@ -43,7 +43,7 @@ const Motto = () => {
         {mottos.map((motto, index) => (
           <div
             key={index}
-            className="bg-gray-50 rounded-2xl shadow-md p-8 flex flex-col items-center text-center space-y-4 hover:shadow-xl hover:-translate-y-1 transition"
+            className="bg-white rounded-2xl shadow-md p-8 flex flex-col items-center text-center space-y-4 hover:shadow-xl hover:-translate-y-1 transition"
           >
             <div className="p-4 rounded-full bg-white shadow-md">
               {motto.icon}

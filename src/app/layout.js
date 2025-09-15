@@ -3,7 +3,6 @@ import "./globals.css";
 import NavBar from "./components/NavBar";
 
 
-
 const roboto = Roboto({
   variable: "--font-roboto",
   subsets: ["latin"],
