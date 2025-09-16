@@ -19,7 +19,7 @@ const eTutorial = () => {
           learning style. With easy access anytime and anywhere, you’ll have the
           tools you need to achieve your learning goals more effectively."
         </p>
-        <Link href="/e-tutorial" className="flex items-center text-xs lg:text-[18px] gap-2 hover:animate-bounce text-blue-600 hover:text-blue-700 text-center">View more <LucideArrowRight size={16} /></Link>
+        <Link href="/e-tutorial" className="flex items-center text-xs lg:text-[14px] gap-2 hover:animate-bounce text-blue-600 hover:text-blue-700 text-center">View more <LucideArrowRight size={16} /></Link>
       </div>
     </div>
   );
