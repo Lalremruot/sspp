@@ -22,7 +22,7 @@ export default function AboutUs() {
       </section>
 
       {/* Introduction Section */}
-      <section className="py-12 md:py-16 px-4 md:px-8 max-w-6xl mx-auto">
+      <section className="py-12 md:py-16 px-2 md:px-8 max-w-6xl mx-auto">
         <div className="bg-white rounded-xl shadow-md p-6 md:p-8 lg:p-10">
           <p className="text-lg md:text-xl text-gray-700 text-justify leading-relaxed">
             Siamsinpawlpi, or SSPP in abbreviated form, is a students' welfare organisation founded on the principle of philanthropy and volunteerism and formed upon the motto of <span className="font-semibold text-green-700">LEARN, LABOUR AND SERVE</span>. It endeavours to cater to the need of the, otherwise deprived, first generation learning community in order to create an educationally conducive and more enabling environment among the Paites in particular and its kindred communities in general. The Organisation is headquartered at
