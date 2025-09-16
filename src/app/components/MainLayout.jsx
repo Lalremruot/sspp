@@ -8,6 +8,7 @@ import Welcome from './Welcome';
 import WhatWeDo from './WhatWeDo';
 import Motto from './Motto';
 import Footer from './Footer';
+import ETutorial from './ETutorial';
 
 export default function MainLayout() {
   return (
@@ -17,6 +18,7 @@ export default function MainLayout() {
     <Welcome />
     <WhatWeDo />
     <Motto />
+    <ETutorial />
     <Footer />
     </>
   )

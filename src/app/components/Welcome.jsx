@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Welcome = () => {
   return (
-    <section className="w-full lg:mt-12 bg-gray-50 py-16 px-6">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <section className="w-full lg:mt-12 bg-gray-50 py-16 px-2">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <h2 className="text-lg lg:text-4xl md:text-5xl text-center lg:text-start font-bold text-gray-800">
             Welcome to{" "}

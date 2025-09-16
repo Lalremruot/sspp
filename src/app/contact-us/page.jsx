@@ -186,8 +186,6 @@ const ContactUs = () => {
             </div>
           ))}
         </div>
-
-        {/* Additional Information */}
         <div className="mt-16 bg-white rounded-xl shadow-md p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Other Ways to Reach Us</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

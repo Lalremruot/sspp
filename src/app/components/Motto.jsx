@@ -39,7 +39,7 @@ const Motto = () => {
       </div>
 
       {/* Mottos Grid */}
-      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
         {mottos.map((motto, index) => (
           <div
             key={index}

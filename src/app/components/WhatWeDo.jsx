@@ -43,7 +43,7 @@ const WhatWeDo = () => {
       </div>
 
       {/* Program Grid */}
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         {programs.map((program, index) => (
           <div
             key={index}
