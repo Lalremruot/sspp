@@ -22,7 +22,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="w-full lg:max-w-7xl px-2 mx-auto -mt-12 lg:-mt-20 relative z-10 ">
+    <section className="w-full lg:max-w-7xl px-2 lg:px-0 mx-auto -mt-12 lg:-mt-20 relative z-10 ">
       <div className="grid-cols-3 grid md:grid-cols-3 gap-2 lg:gap-6">
         {features.map((feature, index) => (
           <div
