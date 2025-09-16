@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const eTutorial = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto py-4">
+    <div className="w-full max-w-7xl mx-auto px-3 py-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-center font-bold text-3xl">e-Tutorial</h2>
         <p className="font-thin italic text-lg text-gray-500 pb-4 pt-4 max-w-4xl mx-auto text-justify">
